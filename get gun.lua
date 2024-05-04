@@ -1,5 +1,3 @@
---[[Polica or RTA 
-    by Bkkpro1980]]--
 if game.Teams:FindFirstChild("Head Developer") then
     for i, tool in pairs(game.Teams["Head Developer"]:GetChildren()) do
         ClonedTool =  tool:Clone()
@@ -14,5 +12,3 @@ elseif game.Teams:FindFirstChild("A26 | หน่วยอรินทราช"
 else
     warn("Not in compatible game!")
 end
-[14:21]
-bye
