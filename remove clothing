@@ -1,0 +1,8 @@
+local rmt = game:service'ReplicatedStorage':FindFirstChild("DeleteCar")
+		for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+			if  v:IsA("Shirt") or v:IsA("Pants")  then
+				rmt:FireServer(v) 
+			end
+		end
+	
+	end)
